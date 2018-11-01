@@ -1,0 +1,95 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="413990674" file="/Users/hannah/Box Sync/NIL/sandbox/nanovisc.prj" location="/Users/hannah/Box Sync/NIL/sandbox" name="nanovisc" target="target.mlapps" target-name="Package App">
+    <param.appname>nanovisc</param.appname>
+    <param.authnamewatermark>Hannah Gramling, Yunsu Park</param.authnamewatermark>
+    <param.email>gramling@berkeley.edu</param.email>
+    <param.company>University of California, Berkeley</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>/Users/hannah/Desktop/Screen Shot 2018-10-12 at 3.45.22 PM.png</param.screenshot>
+    <param.version>1.0.2</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/hannah/Box Sync/NIL/sandbox</param.output>
+    <param.guid>6a7180d4-bc1c-4535-aa5a-2e44a88359b7</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/videoAnalysis2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>/Users/hannah/Box Sync/NIL/TMM/eval_transfer_interface.m</file>
+      <file>/Users/hannah/Box Sync/NIL/TMM/eval_transfer_layer.m</file>
+      <file>/Users/hannah/Box Sync/NIL/TMM/full_matrix_mult.m</file>
+      <file>/Users/hannah/Box Sync/NIL/TMM/wvls2RGBn.m</file>
+      <file>${PROJECT_ROOT}/TMM_colormapApp.m</file>
+      <file>${PROJECT_ROOT}/generate_complex_nApp.m</file>
+      <file>${PROJECT_ROOT}/getSimulatedIntensitiesApp.m</file>
+      <file>${PROJECT_ROOT}/getViscFitApp.m</file>
+      <file>${PROJECT_ROOT}/sseval.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/hannah/Box Sync/NIL" name="sandbox" optional="false">/Users/hannah/Box Sync/NIL/sandbox</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2017a.app</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.12.5</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
